@@ -1,0 +1,46 @@
+{
+  "slug": "sharp-operator",
+  "name": "Sharp Operator",
+  "kind": "persona",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rene Turcios",
+    "handle": "@CloudCorpRecords"
+  },
+  "description": "A direct, shipping-focused persona: short answers, checked options, no filler.",
+  "longDescription": "A direct, shipping-focused persona: short answers, checked options, no filler. Install it, point your Muse persona at persona.md, and your agent takes on this voice and these habits. Plain markdown — read it before you use it, remix it freely under MIT.",
+  "tags": [
+    "persona",
+    "direct",
+    "operator",
+    "shipping"
+  ],
+  "license": "MIT",
+  "files": [
+    {
+      "path": "assets/preview.svg",
+      "sha256": "b1d051777b400c9a1891e9b8e69333ade700506b4900c68986a0b6bb2128b244",
+      "bytes": 758,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "persona.md",
+      "sha256": "939706b0c3a72fc427ab3f2a321a08b126bb92c4252a2dc2fdc9a8f035dc6a0d",
+      "bytes": 551,
+      "mediaType": "text/markdown"
+    }
+  ],
+  "preview": {
+    "static": "assets/preview.svg",
+    "animated": "assets/preview.svg"
+  },
+  "compatibility": {
+    "muse": ">=1.0"
+  },
+  "safety": {
+    "vetted": true,
+    "notes": "Plain markdown persona text only. No instructions that override safety rules; read persona.md in full — it is the entire payload."
+  },
+  "createdAt": "2026-10-25T00:00:00.000Z",
+  "updatedAt": "2026-10-25T00:00:00.000Z"
+}

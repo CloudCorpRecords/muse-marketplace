@@ -1,0 +1,108 @@
+{
+  "slug": "neon-founder",
+  "name": "Neon Founder",
+  "kind": "avatar",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rene Turcios",
+    "handle": "@CloudCorpRecords"
+  },
+  "description": "Neon shades, midnight roadmap. For builders shipping at 2am.",
+  "longDescription": "Neon shades, midnight roadmap. For builders shipping at 2am. Ships with animated SVG modes for the Muse avatar sharing preview — switch between idle, working, thinking, and celebrating (plus extras) and the expression, props, and motion change with the mode. Original artwork, MIT licensed, safe to remix.",
+  "tags": [
+    "neon",
+    "founder",
+    "startup",
+    "cyber"
+  ],
+  "license": "MIT",
+  "modes": [
+    {
+      "id": "idle",
+      "label": "Idle",
+      "asset": "assets/idle.svg",
+      "loop": true
+    },
+    {
+      "id": "working",
+      "label": "Working",
+      "asset": "assets/working.svg",
+      "loop": true
+    },
+    {
+      "id": "thinking",
+      "label": "Thinking",
+      "asset": "assets/thinking.svg",
+      "loop": true
+    },
+    {
+      "id": "celebrating",
+      "label": "Celebrating",
+      "asset": "assets/celebrating.svg",
+      "loop": true
+    },
+    {
+      "id": "making",
+      "label": "Making",
+      "asset": "assets/making.svg",
+      "loop": true
+    },
+    {
+      "id": "error",
+      "label": "Error",
+      "asset": "assets/error.svg",
+      "loop": true
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/celebrating.svg",
+      "sha256": "38e80efbd115bbe15d52afe3b9a2f2c7fa24d0652981c5aff743ab8330351329",
+      "bytes": 1136,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/error.svg",
+      "sha256": "7c3ef106a011ed1063467a2e4b25de2b2efbe3ce3d1146c636b971219bc13c01",
+      "bytes": 1090,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/idle.svg",
+      "sha256": "9ee0a227fe9f7ce1cbd037ecca152c186c4670331c8d4ad0160990d9b0e926a0",
+      "bytes": 921,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/making.svg",
+      "sha256": "e72fb6a37d1af06fa9575fa798925d30ff8789da733af4ece56b2ab447f294d4",
+      "bytes": 1018,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/thinking.svg",
+      "sha256": "836dbc4a954ac530281f642bf9baa2d7c0b96c18beb36af0e86c0ab81c5b4101",
+      "bytes": 1099,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/working.svg",
+      "sha256": "50dbb11e055197fa7e2f6e72d40cf6bd357b930d311a88a6880d86af833fee8c",
+      "bytes": 1118,
+      "mediaType": "image/svg+xml"
+    }
+  ],
+  "preview": {
+    "static": "assets/idle.svg",
+    "animated": "assets/working.svg"
+  },
+  "compatibility": {
+    "muse": ">=1.0"
+  },
+  "safety": {
+    "vetted": true,
+    "notes": "Original SVG artwork only. No scripts, no external references, no executables. Checksums verified by `muse-marketplace validate`."
+  },
+  "createdAt": "2026-10-25T00:00:00.000Z",
+  "updatedAt": "2026-10-25T00:00:00.000Z"
+}

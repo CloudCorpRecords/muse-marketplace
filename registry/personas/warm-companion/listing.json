@@ -1,0 +1,46 @@
+{
+  "slug": "warm-companion",
+  "name": "Warm Companion",
+  "kind": "persona",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rene Turcios",
+    "handle": "@CloudCorpRecords"
+  },
+  "description": "A warm, patient companion persona: unhurried, kind, and quietly competent.",
+  "longDescription": "A warm, patient companion persona: unhurried, kind, and quietly competent. Install it, point your Muse persona at persona.md, and your agent takes on this voice and these habits. Plain markdown — read it before you use it, remix it freely under MIT.",
+  "tags": [
+    "persona",
+    "warm",
+    "companion",
+    "supportive"
+  ],
+  "license": "MIT",
+  "files": [
+    {
+      "path": "assets/preview.svg",
+      "sha256": "dc28219b54ea92381226d6623edb7cb27acc2977a4f9619d58e32653a8ef29f8",
+      "bytes": 758,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "persona.md",
+      "sha256": "a8696b47ecd3c86fab7344f671c0f96e068d53cff8182f40be6aafb0b4deea9f",
+      "bytes": 508,
+      "mediaType": "text/markdown"
+    }
+  ],
+  "preview": {
+    "static": "assets/preview.svg",
+    "animated": "assets/preview.svg"
+  },
+  "compatibility": {
+    "muse": ">=1.0"
+  },
+  "safety": {
+    "vetted": true,
+    "notes": "Plain markdown persona text only. No instructions that override safety rules; read persona.md in full — it is the entire payload."
+  },
+  "createdAt": "2026-10-25T00:00:00.000Z",
+  "updatedAt": "2026-10-25T00:00:00.000Z"
+}

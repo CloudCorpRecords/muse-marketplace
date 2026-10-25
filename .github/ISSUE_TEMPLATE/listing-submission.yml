@@ -1,0 +1,35 @@
+name: Listing submission
+description: Submit a new avatar, persona, voice, or bundle to the registry
+labels: [listing]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Listing slug
+      description: kebab-case, e.g. my-avatar — must match the folder name in your PR
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options: [avatar, persona, voice, bundle]
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What is it?
+      description: One or two sentences. Original work, or properly licensed? Say which.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission checks
+      options:
+        - label: I scaffolded with `muse-marketplace init` and `muse-marketplace validate <slug>` is clean
+        - label: I ran `muse-marketplace index` and included the regenerated registry/index.json
+        - label: All assets are original or properly licensed, and the license in listing.json matches
+        - label: safety.vetted is false in my submission (vetting is a reviewer step)
+        - label: No executable/script files and no external references inside SVGs

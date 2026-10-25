@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a bug in the CLI, MCP server, validation, install, or site
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Output of `muse-marketplace --version`
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Surface
+      options: [CLI, MCP server, validation, install, site, registry data]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Exact commands help most. If a listing is involved, name its slug.

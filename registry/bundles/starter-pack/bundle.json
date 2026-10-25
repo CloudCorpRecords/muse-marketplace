@@ -1,0 +1,15 @@
+{
+  "bundle": "starter-pack",
+  "version": "1.0.0",
+  "includes": [
+    "jolly",
+    "tree",
+    "straw-hat-explorer",
+    "neon-founder",
+    "cozy-scholar",
+    "pixel-sprite",
+    "sharp-operator",
+    "warm-companion"
+  ],
+  "note": "Install each slug with: npx @reneturcios/muse-marketplace install <slug>"
+}

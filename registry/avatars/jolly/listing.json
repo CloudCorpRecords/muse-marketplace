@@ -1,0 +1,108 @@
+{
+  "slug": "jolly",
+  "name": "Jolly",
+  "kind": "avatar",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rene Turcios",
+    "handle": "@CloudCorpRecords"
+  },
+  "description": "The friendly green companion — Muse's default spirit, reimagined as an original shareable avatar.",
+  "longDescription": "The friendly green companion — Muse's default spirit, reimagined as an original shareable avatar. Ships with animated SVG modes for the Muse avatar sharing preview — switch between idle, working, thinking, and celebrating (plus extras) and the expression, props, and motion change with the mode. Original artwork, MIT licensed, safe to remix.",
+  "tags": [
+    "companion",
+    "default",
+    "friendly",
+    "green"
+  ],
+  "license": "MIT",
+  "modes": [
+    {
+      "id": "idle",
+      "label": "Idle",
+      "asset": "assets/idle.svg",
+      "loop": true
+    },
+    {
+      "id": "working",
+      "label": "Working",
+      "asset": "assets/working.svg",
+      "loop": true
+    },
+    {
+      "id": "thinking",
+      "label": "Thinking",
+      "asset": "assets/thinking.svg",
+      "loop": true
+    },
+    {
+      "id": "celebrating",
+      "label": "Celebrating",
+      "asset": "assets/celebrating.svg",
+      "loop": true
+    },
+    {
+      "id": "making",
+      "label": "Making",
+      "asset": "assets/making.svg",
+      "loop": true
+    },
+    {
+      "id": "dance",
+      "label": "Dance",
+      "asset": "assets/dance.svg",
+      "loop": true
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/celebrating.svg",
+      "sha256": "76d04907360d5632c14161f81973a95f91f1fed55661a8800da95951c1181283",
+      "bytes": 1057,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/dance.svg",
+      "sha256": "682813b5c30bc95a746a7d1ee5985e39bc6948fd6429b5c125a8178b9e2a32a1",
+      "bytes": 1015,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/idle.svg",
+      "sha256": "514cb23687bd307403f637a4d4048954b1c216c7d813a21d1e36bec2f457a879",
+      "bytes": 842,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/making.svg",
+      "sha256": "bece545f5551d806c174757464354f2abc1dc76628a12d09648632124d58b999",
+      "bytes": 939,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/thinking.svg",
+      "sha256": "cdb90967fa18646c124fc2f9e39b4c3dea07316fefb4d0a6675a2f11d11f2f62",
+      "bytes": 1020,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/working.svg",
+      "sha256": "ef8f3a7f9b1f3937f2ccec73ff1150295824b251f3856a76e909ac17c2f7d56c",
+      "bytes": 1039,
+      "mediaType": "image/svg+xml"
+    }
+  ],
+  "preview": {
+    "static": "assets/idle.svg",
+    "animated": "assets/working.svg"
+  },
+  "compatibility": {
+    "muse": ">=1.0"
+  },
+  "safety": {
+    "vetted": true,
+    "notes": "Original SVG artwork only. No scripts, no external references, no executables. Checksums verified by `muse-marketplace validate`."
+  },
+  "createdAt": "2026-10-25T00:00:00.000Z",
+  "updatedAt": "2026-10-25T00:00:00.000Z"
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "straw-hat-explorer",
+  "name": "Straw Hat Explorer",
+  "kind": "avatar",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rene Turcios",
+    "handle": "@CloudCorpRecords"
+  },
+  "description": "A cheerful explorer under a wide straw hat — always ready for the next quest.",
+  "longDescription": "A cheerful explorer under a wide straw hat — always ready for the next quest. Ships with animated SVG modes for the Muse avatar sharing preview — switch between idle, working, thinking, and celebrating (plus extras) and the expression, props, and motion change with the mode. Original artwork, MIT licensed, safe to remix.",
+  "tags": [
+    "adventure",
+    "explorer",
+    "hat",
+    "cheerful"
+  ],
+  "license": "MIT",
+  "modes": [
+    {
+      "id": "idle",
+      "label": "Idle",
+      "asset": "assets/idle.svg",
+      "loop": true
+    },
+    {
+      "id": "working",
+      "label": "Working",
+      "asset": "assets/working.svg",
+      "loop": true
+    },
+    {
+      "id": "thinking",
+      "label": "Thinking",
+      "asset": "assets/thinking.svg",
+      "loop": true
+    },
+    {
+      "id": "celebrating",
+      "label": "Celebrating",
+      "asset": "assets/celebrating.svg",
+      "loop": true
+    },
+    {
+      "id": "dance",
+      "label": "Dance",
+      "asset": "assets/dance.svg",
+      "loop": true
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/celebrating.svg",
+      "sha256": "68340eae63ede962662ee1d9902bc81251372cc74d953d6cb205ce83d1edda76",
+      "bytes": 1163,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/dance.svg",
+      "sha256": "de72a4aab4f00f04d47ac7a734c5fd27ace594ad0723def530dd99f3567e3816",
+      "bytes": 1121,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/idle.svg",
+      "sha256": "df2ad5af08b5e4c9a9cd2a067866c3c724645acf321f769e7e3383095bd5c830",
+      "bytes": 948,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/thinking.svg",
+      "sha256": "5523d91bdee2ae2a281a46add3ab6c3b7e96a16487872fb05dbaaaaee34eaf53",
+      "bytes": 1126,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/working.svg",
+      "sha256": "465608d05b410c9193cfe7131457e7f1dd8b5b6e13906f9170d3e82f9aedc5e9",
+      "bytes": 1145,
+      "mediaType": "image/svg+xml"
+    }
+  ],
+  "preview": {
+    "static": "assets/idle.svg",
+    "animated": "assets/working.svg"
+  },
+  "compatibility": {
+    "muse": ">=1.0"
+  },
+  "safety": {
+    "vetted": true,
+    "notes": "Original SVG artwork only. No scripts, no external references, no executables. Checksums verified by `muse-marketplace validate`."
+  },
+  "createdAt": "2026-10-25T00:00:00.000Z",
+  "updatedAt": "2026-10-25T00:00:00.000Z"
+}

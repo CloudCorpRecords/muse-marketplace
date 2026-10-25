@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci || npm install
+      - run: npm run build
+      - run: npm test
+      - name: Validate registry
+        run: node dist/cli.js doctor
+      - name: Fail on index drift
+        run: |
+          cp registry/index.json /tmp/index.before.json
+          node dist/cli.js index
+          diff /tmp/index.before.json registry/index.json || (echo "::error::registry/index.json is stale — run 'muse-marketplace index' and commit the result" && exit 1)
+      - name: Validate every listing
+        run: |
+          for slug in $(node dist/cli.js list --json | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>console.log(JSON.parse(d).map(l=>l.slug).join(' ')))"); do
+            node dist/cli.js validate "$slug"
+          done

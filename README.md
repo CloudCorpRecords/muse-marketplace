@@ -1,1 +1,73 @@
-IyBNdXNlIE1hcmtldHBsYWNlCgoqKlRoZSBvcGVuIG1hcmtldHBsYWNlICYgcmVnaXN0cnkgZm9yIHNoYXJlYWJsZSBNdXNlIGFzc2V0cy4qKgoKTXVzZSB1c2VycyB3aWxsIHNvb24gYmUgYWJsZSB0byBzaGFyZSBNdXNlIEF2YXRhcnMgd2l0aCBlYWNoIG90aGVyIOKAlCBhbiBhdmF0YXIgc2hhcmluZyBwb3AtdXAsIGFuaW1hdGVkIHByZXZpZXdzIG9mIGF2YXRhciAibW9kZXMiIGxpa2UgKldvcmtpbmcqLCB0aGUgd29ya3MuIEJ1dCBzaGFyaW5nIG5lZWRzIHNvbWV3aGVyZSB0byBsaXZlOiBhbiBvcGVuIHJlZ2lzdHJ5IHdoZXJlIGFueW9uZSBjYW4gcHVibGlzaCBhbiBhdmF0YXIsIHBlcnNvbmEsIHZvaWNlLCBvciBidW5kbGUsIHdoZXJlIGV2ZXJ5IGZpbGUgY2FycmllcyBhIGNoZWNrc3VtLCBhbmQgd2hlcmUgInNhZmUiIG1lYW5zICphY3R1YWxseSBjaGVja2VkKiwgbm90IGp1c3QgY2xhaW1lZC4KClRoYXQgaXMgdGhpcyByZXBvLiBXZSBhcmUgYnVpbGRpbmcgdGhlIE11c2UgQXZhdGFyIG1hcmtldHBsYWNlIOKAlCBzdGFydGluZyBub3csIGluIHRoZSBvcGVuLgoKYGBgYmFzaApucHggQHJlbmV0dXJjaW9zL211c2UtbWFya2V0cGxhY2UgbGlzdApucHggQHJlbmV0dXJjaW9zL211c2UtbWFya2V0cGxhY2Ugc2VhcmNoIHRyZWUKbnB4IEByZW5ldHVyY2lvcy9tdXNlLW1hcmtldHBsYWNlIHNob3cgam9sbHkKbnB4IEByZW5ldHVyY2lvcy9tdXNlLW1hcmtldHBsYWNlIGluc3RhbGwgam9sbHkKbnB4IEByZW5ldHVyY2lvcy9tdXNlLW1hcmtldHBsYWNlIGRvY3RvcgpgYGAKCk9yIGJyb3dzZSBpdCBhcyBhIHNpdGU6IG9wZW4gYHNpdGUvaW5kZXguaHRtbGAgKG9yIHRoZSBHaXRIdWIgUGFnZXMgZGVwbG95KSDigJQgYSBkYXJrLCBzZWFyY2hhYmxlIGdyaWQgd2l0aCBhbiBhbmltYXRlZCBtb2RlIHN3aXRjaGVyIG9uIGV2ZXJ5IGF2YXRhci4KCiMjIFdoYXQncyBpbnNpZGUKCi0gKipgcmVnaXN0cnkvYCoqIOKAlCBUaGUgcmVnaXN0cnkgaXRzZWxmLiBFdmVyeSBsaXN0aW5nIGlzIGEgZm9sZGVyIGByZWdpc3RyeS88a2luZD5zLzxzbHVnPi9gIHdpdGggYSBgbGlzdGluZy5qc29uYCArIGl0cyBhc3NldCBmaWxlcy4gS2luZHM6IGBhdmF0YXJgIChwcmltYXJ5KSwgYHBlcnNvbmFgLCBgdm9pY2VgLCBgYnVuZGxlYC4gYHJlZ2lzdHJ5L2luZGV4Lmpzb25gIGlzICoqZ2VuZXJhdGVkKiogZnJvbSB0aGUgbGlzdGluZ3MgKGBtdXNlLW1hcmtldHBsYWNlIGluZGV4YCksIG5ldmVyIGhhbmQtZWRpdGVkOyBDSSBmYWlscyBvbiBkcmlmdC4KLSAqKkxhdW5jaCBjYXRhbG9nICg5IGxpc3RpbmdzLCBhbGwgb3JpZ2luYWwsIGFsbCBpbnN0YWxsYWJsZSkqKiDigJQgNiBhdmF0YXJzOiAqKkpvbGx5KiogKHRoZSBmcmllbmRseSBncmVlbiBjb21wYW5pb24pLCAqKlRyZWUqKiAoYSBmb3Jlc3Qgc3Bpcml0KSwgKipTdHJhdyBIYXQgRXhwbG9yZXIqKiwgKipOZW9uIEZvdW5kZXIqKiwgKipDb3p5IFNjaG9sYXIqKiwgKipQaXhlbCBTcHJpdGUqKiDigJQgZWFjaCB3aXRoIGFuIG9yaWdpbmFsIGFuaW1hdGVkIFNWRyBwZXIgbW9kZSAoaWRsZSAvIHdvcmtpbmcgLyB0aGlua2luZyAvIGNlbGVicmF0aW5nLCBwbHVzIGV4dHJhcyBsaWtlIG1ha2luZywgZGFuY2UsIG1pbGVzdG9uZSwgZXJyb3IpLiAyIHBlcnNvbmFzOiAqKlNoYXJwIE9wZXJhdG9yKiosICoqV2FybSBDb21wYW5pb24qKi4gMSBidW5kbGU6ICoqU3RhcnRlciBQYWNrKiogKGV2ZXJ5dGhpbmcpLgotICoqQ0xJICsgTUNQIGluIG9uZSBiaW4qKiDigJQgYG11c2UtbWFya2V0cGxhY2VgIChhbGlhcyBgbW1rdGApIGZvciBodW1hbnM7IHRoZSBzYW1lIGJpbmFyeSBpcyBhbiBNQ1Agc2VydmVyIChgbXVzZS1tYXJrZXRwbGFjZSBtY3BgKSBleHBvc2luZyBgbWFya2V0cGxhY2Vfc2VhcmNoYCwgYG1hcmtldHBsYWNlX2xpc3RgLCBgbWFya2V0cGxhY2Vfc2hvd2AsIGBtYXJrZXRwbGFjZV92YWxpZGF0ZWAsIGBtYXJrZXRwbGFjZV9pbnN0YWxsYC4KLSAqKmBzaXRlL2AqKiDigJQgQSB6ZXJvLWJ1aWxkIHN0YXRpYyBtYXJrZXRwbGFjZTogc2VhcmNoLCBmaWx0ZXIgYnkga2luZCArIHRhZywgY2xpY2sgYSBjYXJkIGZvciB0aGUgYW5pbWF0ZWQgbW9kZSBzd2l0Y2hlciBhbmQgYSBjb3B5YWJsZSBpbnN0YWxsIGNvbW1hbmQuCi0gKipgZG9jcy9gKiog4oCUIFtTUEVDXShkb2NzL1NQRUMubWQpICh0aGUgbGlzdGluZyBzY2hlbWEpLCBbUFVCTElTSElOR10oZG9jcy9QVUJMSVNISU5HLm1kKSAoc3VibWl0IHZpYSBQUiksIFtWRVRUSU5HXShkb2NzL1ZFVFRJTkcubWQpICh0aGUgc2FmZXR5IG1vZGVsKSwgW01PREVTXShkb2NzL01PREVTLm1kKSwgW0FSQ0hJVEVDVFVSRV0oZG9jcy9BUkNISVRFQ1RVUkUubWQpLCBbUk9BRE1BUF0oZG9jcy9ST0FETUFQLm1kKS4KCiMjIFF1aWNrc3RhcnQKCmBgYGJhc2gKbnBtIGluc3RhbGwKbnBtIHJ1biBidWlsZApucG0gdGVzdAoKbm9kZSBkaXN0L2NsaS5qcyBsaXN0Cm5vZGUgZGlzdC9jbGkuanMgaW5zdGFsbCBqb2xseSAtLWRlc3QgLi9tdXNlLWFzc2V0cyAgICMgY29waWVzIGZpbGVzLCB2ZXJpZmllcyBzaGEyNTYgYmVmb3JlIEFORCBhZnRlciwgd3JpdGVzIGluc3RhbGwtcmVjZWlwdC5qc29uCm5vZGUgZGlzdC9jbGkuanMgaW5pdCBteS1hdmF0YXIgLS1raW5kIGF2YXRhciAgICAgICAgICAjIHNjYWZmb2xkIGEgbGlzdGluZyBvZiB5b3VyIG93bgpub2RlIGRpc3QvY2xpLmpzIHZhbGlkYXRlIG15LWF2YXRhcgpub2RlIGRpc3QvY2xpLmpzIGluZGV4ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgcmVidWlsZCByZWdpc3RyeS9pbmRleC5qc29uCm5vZGUgZGlzdC9jbGkuanMgZG9jdG9yICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyByZWdpc3RyeSBoZWFsdGgKYGBgCgojIyBQdWJsaXNoIGEgbGlzdGluZwoKMS4gYG11c2UtbWFya2V0cGxhY2UgaW5pdCA8eW91ci1zbHVnPiAtLWtpbmQgYXZhdGFyYAoyLiBSZXBsYWNlIHRoZSBwbGFjZWhvbGRlciBTVkdzIC8gYHBlcnNvbmEubWRgIHdpdGggeW91ciByZWFsIGFzc2V0cy4KMy4gUnVuIGBtdXNlLW1hcmtldHBsYWNlIHZhbGlkYXRlIDx5b3VyLXNsdWc+YCB1bnRpbCBjbGVhbiwgdGhlbiBgbXVzZS1tYXJrZXRwbGFjZSBpbmRleGAuCjQuIE9wZW4gYSBQUi4gRnVsbCB3YWxrdGhyb3VnaDogW2RvY3MvUFVCTElTSElORy5tZF0oZG9jcy9QVUJMSVNISU5HLm1kKS4KCiMjIFRoZSB2ZXR0aW5nIC8gc2FmZXR5IG1vZGVsIChzaG9ydCB2ZXJzaW9uKQoKTm90aGluZyBnZXRzIHRvIGNhbGwgaXRzZWxmIHNhZmUgaGVyZSB3aXRob3V0IHJlY2VpcHRzIOKAlCB0aGUgc2FtZSBydWxlIHdlIHJ1biBhY3Jvc3MgdGhlIGZsZWV0OiAqYW55dGhpbmcgbGlzdGVkIGFzIHNhZmUgbXVzdCBiZSB2YWxpZGF0ZWQgd2l0aCByZWFsIGNoZWNrcy4qCgotICoqTm8gZXhlY3V0YWJsZXMsIGV2ZXIuKiogT25seSBhbGxvd2xpc3RlZCBtZWRpYSB0eXBlcyAoU1ZHL1BORy9KUEVHL0dJRi9XZWJQLCBtYXJrZG93biwgcGxhaW4gdGV4dCwgSlNPTiwgYXVkaW8pLiBWYWxpZGF0aW9uIHJlamVjdHMgZXhlY3V0YWJsZSBleHRlbnNpb25zIG91dHJpZ2h0LgotICoqQ2hlY2tzdW1zIG9uIGV2ZXJ5dGhpbmcuKiogRXZlcnkgZmlsZSBpbiBldmVyeSBsaXN0aW5nIHJlY29yZHMgaXRzIHNoYTI1NiArIGJ5dGUgc2l6ZS4gYHZhbGlkYXRlYCByZWNvbXB1dGVzIHRoZW07IGBpbnN0YWxsYCB2ZXJpZmllcyBiZWZvcmUgKmFuZCogYWZ0ZXIgY29weWluZyBhbmQgKipyZWZ1c2VzIHRhbXBlcmVkIGxpc3RpbmdzKiouCi0gKipQYXRoIHNhZmV0eS4qKiBBYnNvbHV0ZSBwYXRocyBhbmQgYC4uYCB0cmF2ZXJzYWwgZW50cmllcyBhcmUgcmVqZWN0ZWQ7IGluc3RhbGxzIHN0YXkgaW5zaWRlIHRoZSBkZXN0aW5hdGlvbiB5b3UgbmFtZS4KLSAqKlZldHRlZCBpcyBlYXJuZWQuKiogYHNhZmV0eS52ZXR0ZWRgIGZsaXBzIHRvIGB0cnVlYCBvbmx5IGFmdGVyIHRoZSBbVkVUVElORy5tZF0oZG9jcy9WRVRUSU5HLm1kKSBjaGVja2xpc3QgaXMgcnVuIGJ5IGEgcmV2aWV3ZXIg4oCUIG5vdCBieSB0aGUgYXV0aG9yIGNoZWNraW5nIHRoZWlyIG93biBib3guCi0gUGVyc29uYXMgYXJlIHBsYWluIG1hcmtkb3duIHlvdSBjYW4gcmVhZCBpbiBmdWxsIGJlZm9yZSB1c2luZyDigJQgdGhlIGZpbGUgKmlzKiB0aGUgcGF5bG9hZCwgbm90aGluZyBoaWRkZW4uCgpGdWxsIG1vZGVsOiBbZG9jcy9WRVRUSU5HLm1kXShkb2NzL1ZFVFRJTkcubWQpIMK3IFNlY3VyaXR5IHJlcG9ydHM6IFtTRUNVUklUWS5tZF0oU0VDVVJJVFkubWQpCgojIyBNQ1AgdXNhZ2UKCmBgYGpzb24KeyAibWNwU2VydmVycyI6IHsgIm11c2UtbWFya2V0cGxhY2UiOiB7ICJjb21tYW5kIjogIm5weCIsICJhcmdzIjogWyIteSIsICJAcmVuZXR1cmNpb3MvbXVzZS1tYXJrZXRwbGFjZSIsICJtY3AiXSB9IH0gfQpgYGAKClRvb2xzOiBgbWFya2V0cGxhY2Vfc2VhcmNoYCDCtyBgbWFya2V0cGxhY2VfbGlzdGAgwrcgYG1hcmtldHBsYWNlX3Nob3dgIMK3IGBtYXJrZXRwbGFjZV92YWxpZGF0ZWAgwrcgYG1hcmtldHBsYWNlX2luc3RhbGxgIChpbnN0YWxsIGlzIGNvbmZpbmVkIHRvIGEgY2FsbGVyLXByb3ZpZGVkIGRlc3RpbmF0aW9uIHVuZGVyIHRoZSBjdXJyZW50IHdvcmtpbmcgZGlyZWN0b3J5KS4KCiMjIFJvYWRtYXAKClJhdGluZ3MgJiByZXZpZXdzLCBzaWduZWQgbGlzdGluZ3MsIHZvaWNlIHByZXZpZXdzIGluIHRoZSBzaXRlIHBsYXllciwgYSBgcHVibGlzaGAgY29tbWFuZCB0aGF0IG9wZW5zIHRoZSBQUiBmb3IgeW91LCBmZWRlcmF0aW9uIHdpdGggb3RoZXIgcmVnaXN0cmllcywgYW5kIGZpcnN0LWNsYXNzIHdpcmluZyBmb3IgTXVzZSdzIG5hdGl2ZSBhdmF0YXIgc2hhcmluZyB3aGVuIGl0IGxhbmRzLiBEZXRhaWw6IFtkb2NzL1JPQURNQVAubWRdKGRvY3MvUk9BRE1BUC5tZCkuCgpNSVQuIEJ5IFJlbmUgVHVyY2lvcyAvIENsb3VkQ29ycFJlY29yZHMuIEZsZWV0OiBodHRwczovL2dpdGh1Yi5jb20vQ2xvdWRDb3JwUmVjb3Jkcwo=
+# Muse Marketplace
+
+**The open marketplace & registry for shareable Muse assets.**
+
+Muse users will soon be able to share Muse Avatars with each other — an avatar sharing pop-up, animated previews of avatar "modes" like *Working*, the works. But sharing needs somewhere to live: an open registry where anyone can publish an avatar, persona, voice, or bundle, where every file carries a checksum, and where "safe" means *actually checked*, not just claimed.
+
+That is this repo. We are building the Muse Avatar marketplace — starting now, in the open.
+
+```bash
+npx @reneturcios/muse-marketplace list
+npx @reneturcios/muse-marketplace search tree
+npx @reneturcios/muse-marketplace show jolly
+npx @reneturcios/muse-marketplace install jolly
+npx @reneturcios/muse-marketplace doctor
+```
+
+Or browse it as a site: open `site/index.html` (or the GitHub Pages deploy) — a dark, searchable grid with an animated mode switcher on every avatar.
+
+## What's inside
+
+- **`registry/`** — The registry itself. Every listing is a folder `registry/<kind>s/<slug>/` with a `listing.json` + its asset files. Kinds: `avatar` (primary), `persona`, `voice`, `bundle`. `registry/index.json` is **generated** from the listings (`muse-marketplace index`), never hand-edited; CI fails on drift.
+- **Launch catalog (9 listings, all original, all installable)** — 6 avatars: **Jolly** (the friendly green companion), **Tree** (a forest spirit), **Straw Hat Explorer**, **Neon Founder**, **Cozy Scholar**, **Pixel Sprite** — each with an original animated SVG per mode (idle / working / thinking / celebrating, plus extras like making, dance, milestone, error). 2 personas: **Sharp Operator**, **Warm Companion**. 1 bundle: **Starter Pack** (everything).
+- **CLI + MCP in one bin** — `muse-marketplace` (alias `mmkt`) for humans; the same binary is an MCP server (`muse-marketplace mcp`) exposing `marketplace_search`, `marketplace_list`, `marketplace_show`, `marketplace_validate`, `marketplace_install`.
+- **`site/`** — A zero-build static marketplace: search, filter by kind + tag, click a card for the animated mode switcher and a copyable install command.
+- **`docs/`** — [SPEC](docs/SPEC.md) (the listing schema), [PUBLISHING](docs/PUBLISHING.md) (submit via PR), [VETTING](docs/VETTING.md) (the safety model), [MODES](docs/MODES.md), [ARCHITECTURE](docs/ARCHITECTURE.md), [ROADMAP](docs/ROADMAP.md).
+
+## Quickstart
+
+```bash
+npm install
+npm run build
+npm test
+
+node dist/cli.js list
+node dist/cli.js install jolly --dest ./muse-assets   # copies files, verifies sha256 before AND after, writes install-receipt.json
+node dist/cli.js init my-avatar --kind avatar          # scaffold a listing of your own
+node dist/cli.js validate my-avatar
+node dist/cli.js index                                  # rebuild registry/index.json
+node dist/cli.js doctor                                 # registry health
+```
+
+## Publish a listing
+
+1. `muse-marketplace init <your-slug> --kind avatar`
+2. Replace the placeholder SVGs / `persona.md` with your real assets.
+3. Run `muse-marketplace validate <your-slug>` until clean, then `muse-marketplace index`.
+4. Open a PR. Full walkthrough: [docs/PUBLISHING.md](docs/PUBLISHING.md).
+
+## The vetting / safety model (short version)
+
+Nothing gets to call itself safe here without receipts — the same rule we run across the fleet: *anything listed as safe must be validated with real checks.*
+
+- **No executables, ever.** Only allowlisted media types (SVG/PNG/JPEG/GIF/WebP, markdown, plain text, JSON, audio). Validation rejects executable extensions outright.
+- **Checksums on everything.** Every file in every listing records its sha256 + byte size. `validate` recomputes them; `install` verifies before *and* after copying and **refuses tampered listings**.
+- **Path safety.** Absolute paths and `..` traversal entries are rejected; installs stay inside the destination you name.
+- **Vetted is earned.** `safety.vetted` flips to `true` only after the [VETTING.md](docs/VETTING.md) checklist is run by a reviewer — not by the author checking their own box.
+- Personas are plain markdown you can read in full before using — the file *is* the payload, nothing hidden.
+
+Full model: [docs/VETTING.md](docs/VETTING.md) · Security reports: [SECURITY.md](SECURITY.md)
+
+## MCP usage
+
+```json
+{ "mcpServers": { "muse-marketplace": { "command": "npx", "args": ["-y", "@reneturcios/muse-marketplace", "mcp"] } } }
+```
+
+Tools: `marketplace_search` · `marketplace_list` · `marketplace_show` · `marketplace_validate` · `marketplace_install` (install is confined to a caller-provided destination under the current working directory).
+
+## Roadmap
+
+Ratings & reviews, signed listings, voice previews in the site player, a `publish` command that opens the PR for you, federation with other registries, and first-class wiring for Muse's native avatar sharing when it lands. Detail: [docs/ROADMAP.md](docs/ROADMAP.md).
+
+MIT. By Rene Turcios / CloudCorpRecords. Fleet: https://github.com/CloudCorpRecords

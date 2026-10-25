@@ -1,0 +1,770 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-25T00:00:00.000Z",
+  "counts": {
+    "total": 9,
+    "avatar": 6,
+    "persona": 2,
+    "voice": 0,
+    "bundle": 1
+  },
+  "listings": [
+    {
+      "slug": "cozy-scholar",
+      "name": "Cozy Scholar",
+      "kind": "avatar",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rene Turcios",
+        "handle": "@CloudCorpRecords"
+      },
+      "description": "Glasses on, book open, tea nearby. The avatar for deep reading and careful thinking.",
+      "longDescription": "Glasses on, book open, tea nearby. The avatar for deep reading and careful thinking. Ships with animated SVG modes for the Muse avatar sharing preview — switch between idle, working, thinking, and celebrating (plus extras) and the expression, props, and motion change with the mode. Original artwork, MIT licensed, safe to remix.",
+      "tags": [
+        "cozy",
+        "scholar",
+        "books",
+        "warm"
+      ],
+      "license": "MIT",
+      "modes": [
+        {
+          "id": "idle",
+          "label": "Idle",
+          "asset": "assets/idle.svg",
+          "loop": true
+        },
+        {
+          "id": "working",
+          "label": "Working",
+          "asset": "assets/working.svg",
+          "loop": true
+        },
+        {
+          "id": "thinking",
+          "label": "Thinking",
+          "asset": "assets/thinking.svg",
+          "loop": true
+        },
+        {
+          "id": "celebrating",
+          "label": "Celebrating",
+          "asset": "assets/celebrating.svg",
+          "loop": true
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/celebrating.svg",
+          "sha256": "9e6b3ded0adee8057d0fe43f244f167502ede3e94e7eb57ebde2a49db623a82b",
+          "bytes": 1309,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/idle.svg",
+          "sha256": "6d4be8219ce7ee381056736aee42ffe2bc707f48f137c9f98f6961beddf793dd",
+          "bytes": 1094,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/thinking.svg",
+          "sha256": "fecdc3ae66e55df012f4b3a81ce6575c63de3a1fea3c640c16df6c289cd3716f",
+          "bytes": 1272,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/working.svg",
+          "sha256": "39791d48ed76ad91984cdc017abda11cb8b267b3a61cadde8f6a7f51d86345aa",
+          "bytes": 1291,
+          "mediaType": "image/svg+xml"
+        }
+      ],
+      "preview": {
+        "static": "assets/idle.svg",
+        "animated": "assets/working.svg"
+      },
+      "compatibility": {
+        "muse": ">=1.0"
+      },
+      "safety": {
+        "vetted": true,
+        "notes": "Original SVG artwork only. No scripts, no external references, no executables. Checksums verified by `muse-marketplace validate`."
+      },
+      "createdAt": "2026-10-25T00:00:00.000Z",
+      "updatedAt": "2026-10-25T00:00:00.000Z",
+      "assetBase": "../registry/avatars/cozy-scholar/"
+    },
+    {
+      "slug": "jolly",
+      "name": "Jolly",
+      "kind": "avatar",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rene Turcios",
+        "handle": "@CloudCorpRecords"
+      },
+      "description": "The friendly green companion — Muse's default spirit, reimagined as an original shareable avatar.",
+      "longDescription": "The friendly green companion — Muse's default spirit, reimagined as an original shareable avatar. Ships with animated SVG modes for the Muse avatar sharing preview — switch between idle, working, thinking, and celebrating (plus extras) and the expression, props, and motion change with the mode. Original artwork, MIT licensed, safe to remix.",
+      "tags": [
+        "companion",
+        "default",
+        "friendly",
+        "green"
+      ],
+      "license": "MIT",
+      "modes": [
+        {
+          "id": "idle",
+          "label": "Idle",
+          "asset": "assets/idle.svg",
+          "loop": true
+        },
+        {
+          "id": "working",
+          "label": "Working",
+          "asset": "assets/working.svg",
+          "loop": true
+        },
+        {
+          "id": "thinking",
+          "label": "Thinking",
+          "asset": "assets/thinking.svg",
+          "loop": true
+        },
+        {
+          "id": "celebrating",
+          "label": "Celebrating",
+          "asset": "assets/celebrating.svg",
+          "loop": true
+        },
+        {
+          "id": "making",
+          "label": "Making",
+          "asset": "assets/making.svg",
+          "loop": true
+        },
+        {
+          "id": "dance",
+          "label": "Dance",
+          "asset": "assets/dance.svg",
+          "loop": true
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/celebrating.svg",
+          "sha256": "76d04907360d5632c14161f81973a95f91f1fed55661a8800da95951c1181283",
+          "bytes": 1057,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/dance.svg",
+          "sha256": "682813b5c30bc95a746a7d1ee5985e39bc6948fd6429b5c125a8178b9e2a32a1",
+          "bytes": 1015,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/idle.svg",
+          "sha256": "514cb23687bd307403f637a4d4048954b1c216c7d813a21d1e36bec2f457a879",
+          "bytes": 842,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/making.svg",
+          "sha256": "bece545f5551d806c174757464354f2abc1dc76628a12d09648632124d58b999",
+          "bytes": 939,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/thinking.svg",
+          "sha256": "cdb90967fa18646c124fc2f9e39b4c3dea07316fefb4d0a6675a2f11d11f2f62",
+          "bytes": 1020,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/working.svg",
+          "sha256": "ef8f3a7f9b1f3937f2ccec73ff1150295824b251f3856a76e909ac17c2f7d56c",
+          "bytes": 1039,
+          "mediaType": "image/svg+xml"
+        }
+      ],
+      "preview": {
+        "static": "assets/idle.svg",
+        "animated": "assets/working.svg"
+      },
+      "compatibility": {
+        "muse": ">=1.0"
+      },
+      "safety": {
+        "vetted": true,
+        "notes": "Original SVG artwork only. No scripts, no external references, no executables. Checksums verified by `muse-marketplace validate`."
+      },
+      "createdAt": "2026-10-25T00:00:00.000Z",
+      "updatedAt": "2026-10-25T00:00:00.000Z",
+      "assetBase": "../registry/avatars/jolly/"
+    },
+    {
+      "slug": "neon-founder",
+      "name": "Neon Founder",
+      "kind": "avatar",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rene Turcios",
+        "handle": "@CloudCorpRecords"
+      },
+      "description": "Neon shades, midnight roadmap. For builders shipping at 2am.",
+      "longDescription": "Neon shades, midnight roadmap. For builders shipping at 2am. Ships with animated SVG modes for the Muse avatar sharing preview — switch between idle, working, thinking, and celebrating (plus extras) and the expression, props, and motion change with the mode. Original artwork, MIT licensed, safe to remix.",
+      "tags": [
+        "neon",
+        "founder",
+        "startup",
+        "cyber"
+      ],
+      "license": "MIT",
+      "modes": [
+        {
+          "id": "idle",
+          "label": "Idle",
+          "asset": "assets/idle.svg",
+          "loop": true
+        },
+        {
+          "id": "working",
+          "label": "Working",
+          "asset": "assets/working.svg",
+          "loop": true
+        },
+        {
+          "id": "thinking",
+          "label": "Thinking",
+          "asset": "assets/thinking.svg",
+          "loop": true
+        },
+        {
+          "id": "celebrating",
+          "label": "Celebrating",
+          "asset": "assets/celebrating.svg",
+          "loop": true
+        },
+        {
+          "id": "making",
+          "label": "Making",
+          "asset": "assets/making.svg",
+          "loop": true
+        },
+        {
+          "id": "error",
+          "label": "Error",
+          "asset": "assets/error.svg",
+          "loop": true
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/celebrating.svg",
+          "sha256": "38e80efbd115bbe15d52afe3b9a2f2c7fa24d0652981c5aff743ab8330351329",
+          "bytes": 1136,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/error.svg",
+          "sha256": "7c3ef106a011ed1063467a2e4b25de2b2efbe3ce3d1146c636b971219bc13c01",
+          "bytes": 1090,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/idle.svg",
+          "sha256": "9ee0a227fe9f7ce1cbd037ecca152c186c4670331c8d4ad0160990d9b0e926a0",
+          "bytes": 921,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/making.svg",
+          "sha256": "e72fb6a37d1af06fa9575fa798925d30ff8789da733af4ece56b2ab447f294d4",
+          "bytes": 1018,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/thinking.svg",
+          "sha256": "836dbc4a954ac530281f642bf9baa2d7c0b96c18beb36af0e86c0ab81c5b4101",
+          "bytes": 1099,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/working.svg",
+          "sha256": "50dbb11e055197fa7e2f6e72d40cf6bd357b930d311a88a6880d86af833fee8c",
+          "bytes": 1118,
+          "mediaType": "image/svg+xml"
+        }
+      ],
+      "preview": {
+        "static": "assets/idle.svg",
+        "animated": "assets/working.svg"
+      },
+      "compatibility": {
+        "muse": ">=1.0"
+      },
+      "safety": {
+        "vetted": true,
+        "notes": "Original SVG artwork only. No scripts, no external references, no executables. Checksums verified by `muse-marketplace validate`."
+      },
+      "createdAt": "2026-10-25T00:00:00.000Z",
+      "updatedAt": "2026-10-25T00:00:00.000Z",
+      "assetBase": "../registry/avatars/neon-founder/"
+    },
+    {
+      "slug": "pixel-sprite",
+      "name": "Pixel Sprite",
+      "kind": "avatar",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rene Turcios",
+        "handle": "@CloudCorpRecords"
+      },
+      "description": "A chunky 8-bit sprite with a pink bow — retro, playful, unmistakable at any size.",
+      "longDescription": "A chunky 8-bit sprite with a pink bow — retro, playful, unmistakable at any size. Ships with animated SVG modes for the Muse avatar sharing preview — switch between idle, working, thinking, and celebrating (plus extras) and the expression, props, and motion change with the mode. Original artwork, MIT licensed, safe to remix.",
+      "tags": [
+        "pixel",
+        "retro",
+        "sprite",
+        "playful"
+      ],
+      "license": "MIT",
+      "modes": [
+        {
+          "id": "idle",
+          "label": "Idle",
+          "asset": "assets/idle.svg",
+          "loop": true
+        },
+        {
+          "id": "working",
+          "label": "Working",
+          "asset": "assets/working.svg",
+          "loop": true
+        },
+        {
+          "id": "thinking",
+          "label": "Thinking",
+          "asset": "assets/thinking.svg",
+          "loop": true
+        },
+        {
+          "id": "celebrating",
+          "label": "Celebrating",
+          "asset": "assets/celebrating.svg",
+          "loop": true
+        },
+        {
+          "id": "dance",
+          "label": "Dance",
+          "asset": "assets/dance.svg",
+          "loop": true
+        },
+        {
+          "id": "error",
+          "label": "Error",
+          "asset": "assets/error.svg",
+          "loop": true
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/celebrating.svg",
+          "sha256": "42b52deb7bc68557e33ecf33f61e6ddd933cea4b71bd440f684cb927983a1514",
+          "bytes": 1215,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/dance.svg",
+          "sha256": "fce22c4ff44c02873b7f7817dc9d19023968b84f7747f08c83d8d762645097db",
+          "bytes": 1173,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/error.svg",
+          "sha256": "e78f8e7dffa1bdbb4ed0242eed83cfd4238aac4a6bee2c997eb01e40de6b797e",
+          "bytes": 1169,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/idle.svg",
+          "sha256": "d1d808036c9dc8c0fa5baff582c877ea92411645bba07d7ed973e3fcd8829200",
+          "bytes": 1000,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/thinking.svg",
+          "sha256": "6b74f1de1053fffa116e97d7fccd9409b12d4882982f729f2e344b88da65791f",
+          "bytes": 1178,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/working.svg",
+          "sha256": "bf4f827e0fb804179d32708f7dbd7ab12c222466d8ca2fa6a0cc7ae3b9ee2b0d",
+          "bytes": 1197,
+          "mediaType": "image/svg+xml"
+        }
+      ],
+      "preview": {
+        "static": "assets/idle.svg",
+        "animated": "assets/working.svg"
+      },
+      "compatibility": {
+        "muse": ">=1.0"
+      },
+      "safety": {
+        "vetted": true,
+        "notes": "Original SVG artwork only. No scripts, no external references, no executables. Checksums verified by `muse-marketplace validate`."
+      },
+      "createdAt": "2026-10-25T00:00:00.000Z",
+      "updatedAt": "2026-10-25T00:00:00.000Z",
+      "assetBase": "../registry/avatars/pixel-sprite/"
+    },
+    {
+      "slug": "sharp-operator",
+      "name": "Sharp Operator",
+      "kind": "persona",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rene Turcios",
+        "handle": "@CloudCorpRecords"
+      },
+      "description": "A direct, shipping-focused persona: short answers, checked options, no filler.",
+      "longDescription": "A direct, shipping-focused persona: short answers, checked options, no filler. Install it, point your Muse persona at persona.md, and your agent takes on this voice and these habits. Plain markdown — read it before you use it, remix it freely under MIT.",
+      "tags": [
+        "persona",
+        "direct",
+        "operator",
+        "shipping"
+      ],
+      "license": "MIT",
+      "files": [
+        {
+          "path": "assets/preview.svg",
+          "sha256": "b1d051777b400c9a1891e9b8e69333ade700506b4900c68986a0b6bb2128b244",
+          "bytes": 758,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "persona.md",
+          "sha256": "939706b0c3a72fc427ab3f2a321a08b126bb92c4252a2dc2fdc9a8f035dc6a0d",
+          "bytes": 551,
+          "mediaType": "text/markdown"
+        }
+      ],
+      "preview": {
+        "static": "assets/preview.svg",
+        "animated": "assets/preview.svg"
+      },
+      "compatibility": {
+        "muse": ">=1.0"
+      },
+      "safety": {
+        "vetted": true,
+        "notes": "Plain markdown persona text only. No instructions that override safety rules; read persona.md in full — it is the entire payload."
+      },
+      "createdAt": "2026-10-25T00:00:00.000Z",
+      "updatedAt": "2026-10-25T00:00:00.000Z",
+      "assetBase": "../registry/personas/sharp-operator/"
+    },
+    {
+      "slug": "starter-pack",
+      "name": "Starter Pack",
+      "kind": "bundle",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rene Turcios",
+        "handle": "@CloudCorpRecords"
+      },
+      "description": "The whole launch catalog in one bundle: all 6 avatars and both personas.",
+      "longDescription": "Start here. The Starter Pack references every launch listing — Jolly, Tree, Straw Hat Explorer, Neon Founder, Cozy Scholar, Pixel Sprite, Sharp Operator, and Warm Companion — so a new Muse user can install the full set in minutes. The bundle itself ships a manifest (bundle.json); install each referenced slug individually.",
+      "tags": [
+        "bundle",
+        "starter",
+        "collection",
+        "launch"
+      ],
+      "license": "MIT",
+      "files": [
+        {
+          "path": "assets/preview.svg",
+          "sha256": "c930d1f4c3ba3119b08bfb5dfef01c29191b491ccd569a7c8e43e5d429bdb26b",
+          "bytes": 969,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "bundle.json",
+          "sha256": "b26109eb45330ccdfccb879a5d1167dc58352f2186e78e41476e09b1bf0df82b",
+          "bytes": 314,
+          "mediaType": "application/json"
+        }
+      ],
+      "preview": {
+        "static": "assets/preview.svg",
+        "animated": "assets/preview.svg"
+      },
+      "compatibility": {
+        "muse": ">=1.0"
+      },
+      "safety": {
+        "vetted": true,
+        "notes": "Manifest-only bundle. Every referenced listing is individually vetted and checksum-verified on install."
+      },
+      "createdAt": "2026-10-25T00:00:00.000Z",
+      "updatedAt": "2026-10-25T00:00:00.000Z",
+      "bundleContents": [
+        "jolly",
+        "tree",
+        "straw-hat-explorer",
+        "neon-founder",
+        "cozy-scholar",
+        "pixel-sprite",
+        "sharp-operator",
+        "warm-companion"
+      ],
+      "assetBase": "../registry/bundles/starter-pack/"
+    },
+    {
+      "slug": "straw-hat-explorer",
+      "name": "Straw Hat Explorer",
+      "kind": "avatar",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rene Turcios",
+        "handle": "@CloudCorpRecords"
+      },
+      "description": "A cheerful explorer under a wide straw hat — always ready for the next quest.",
+      "longDescription": "A cheerful explorer under a wide straw hat — always ready for the next quest. Ships with animated SVG modes for the Muse avatar sharing preview — switch between idle, working, thinking, and celebrating (plus extras) and the expression, props, and motion change with the mode. Original artwork, MIT licensed, safe to remix.",
+      "tags": [
+        "adventure",
+        "explorer",
+        "hat",
+        "cheerful"
+      ],
+      "license": "MIT",
+      "modes": [
+        {
+          "id": "idle",
+          "label": "Idle",
+          "asset": "assets/idle.svg",
+          "loop": true
+        },
+        {
+          "id": "working",
+          "label": "Working",
+          "asset": "assets/working.svg",
+          "loop": true
+        },
+        {
+          "id": "thinking",
+          "label": "Thinking",
+          "asset": "assets/thinking.svg",
+          "loop": true
+        },
+        {
+          "id": "celebrating",
+          "label": "Celebrating",
+          "asset": "assets/celebrating.svg",
+          "loop": true
+        },
+        {
+          "id": "dance",
+          "label": "Dance",
+          "asset": "assets/dance.svg",
+          "loop": true
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/celebrating.svg",
+          "sha256": "68340eae63ede962662ee1d9902bc81251372cc74d953d6cb205ce83d1edda76",
+          "bytes": 1163,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/dance.svg",
+          "sha256": "de72a4aab4f00f04d47ac7a734c5fd27ace594ad0723def530dd99f3567e3816",
+          "bytes": 1121,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/idle.svg",
+          "sha256": "df2ad5af08b5e4c9a9cd2a067866c3c724645acf321f769e7e3383095bd5c830",
+          "bytes": 948,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/thinking.svg",
+          "sha256": "5523d91bdee2ae2a281a46add3ab6c3b7e96a16487872fb05dbaaaaee34eaf53",
+          "bytes": 1126,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/working.svg",
+          "sha256": "465608d05b410c9193cfe7131457e7f1dd8b5b6e13906f9170d3e82f9aedc5e9",
+          "bytes": 1145,
+          "mediaType": "image/svg+xml"
+        }
+      ],
+      "preview": {
+        "static": "assets/idle.svg",
+        "animated": "assets/working.svg"
+      },
+      "compatibility": {
+        "muse": ">=1.0"
+      },
+      "safety": {
+        "vetted": true,
+        "notes": "Original SVG artwork only. No scripts, no external references, no executables. Checksums verified by `muse-marketplace validate`."
+      },
+      "createdAt": "2026-10-25T00:00:00.000Z",
+      "updatedAt": "2026-10-25T00:00:00.000Z",
+      "assetBase": "../registry/avatars/straw-hat-explorer/"
+    },
+    {
+      "slug": "tree",
+      "name": "Tree",
+      "kind": "avatar",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rene Turcios",
+        "handle": "@CloudCorpRecords"
+      },
+      "description": "A calm forest spirit — leaves, patience, and deep roots. A nod to the agent named Tree.",
+      "longDescription": "A calm forest spirit — leaves, patience, and deep roots. A nod to the agent named Tree. Ships with animated SVG modes for the Muse avatar sharing preview — switch between idle, working, thinking, and celebrating (plus extras) and the expression, props, and motion change with the mode. Original artwork, MIT licensed, safe to remix.",
+      "tags": [
+        "nature",
+        "tree",
+        "spirit",
+        "calm"
+      ],
+      "license": "MIT",
+      "modes": [
+        {
+          "id": "idle",
+          "label": "Idle",
+          "asset": "assets/idle.svg",
+          "loop": true
+        },
+        {
+          "id": "working",
+          "label": "Working",
+          "asset": "assets/working.svg",
+          "loop": true
+        },
+        {
+          "id": "thinking",
+          "label": "Thinking",
+          "asset": "assets/thinking.svg",
+          "loop": true
+        },
+        {
+          "id": "celebrating",
+          "label": "Celebrating",
+          "asset": "assets/celebrating.svg",
+          "loop": true
+        },
+        {
+          "id": "milestone",
+          "label": "Milestone",
+          "asset": "assets/milestone.svg",
+          "loop": true
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/celebrating.svg",
+          "sha256": "460a93953266f91c024ef77c65d9328e9b974fdc01f595b43fd5f633e857c7b8",
+          "bytes": 1197,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/idle.svg",
+          "sha256": "20299f97bbb824371fdf6533fac6f81f335641f3b3eb0b5625cb63a706eedfdb",
+          "bytes": 982,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/milestone.svg",
+          "sha256": "e2e6a010f019cab20211a8042ec9cac5da8d01dc78daf6bd1431731cf507ce54",
+          "bytes": 1097,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/thinking.svg",
+          "sha256": "874b79c8b91e70961f977511f5b6f00935dee0c32c5a7cd3bce5ceb7b377d245",
+          "bytes": 1160,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "assets/working.svg",
+          "sha256": "f990f570b8fa507c306840db38fff1d0499ade8af9f78a0abfdb11990e892293",
+          "bytes": 1179,
+          "mediaType": "image/svg+xml"
+        }
+      ],
+      "preview": {
+        "static": "assets/idle.svg",
+        "animated": "assets/working.svg"
+      },
+      "compatibility": {
+        "muse": ">=1.0"
+      },
+      "safety": {
+        "vetted": true,
+        "notes": "Original SVG artwork only. No scripts, no external references, no executables. Checksums verified by `muse-marketplace validate`."
+      },
+      "createdAt": "2026-10-25T00:00:00.000Z",
+      "updatedAt": "2026-10-25T00:00:00.000Z",
+      "assetBase": "../registry/avatars/tree/"
+    },
+    {
+      "slug": "warm-companion",
+      "name": "Warm Companion",
+      "kind": "persona",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rene Turcios",
+        "handle": "@CloudCorpRecords"
+      },
+      "description": "A warm, patient companion persona: unhurried, kind, and quietly competent.",
+      "longDescription": "A warm, patient companion persona: unhurried, kind, and quietly competent. Install it, point your Muse persona at persona.md, and your agent takes on this voice and these habits. Plain markdown — read it before you use it, remix it freely under MIT.",
+      "tags": [
+        "persona",
+        "warm",
+        "companion",
+        "supportive"
+      ],
+      "license": "MIT",
+      "files": [
+        {
+          "path": "assets/preview.svg",
+          "sha256": "dc28219b54ea92381226d6623edb7cb27acc2977a4f9619d58e32653a8ef29f8",
+          "bytes": 758,
+          "mediaType": "image/svg+xml"
+        },
+        {
+          "path": "persona.md",
+          "sha256": "a8696b47ecd3c86fab7344f671c0f96e068d53cff8182f40be6aafb0b4deea9f",
+          "bytes": 508,
+          "mediaType": "text/markdown"
+        }
+      ],
+      "preview": {
+        "static": "assets/preview.svg",
+        "animated": "assets/preview.svg"
+      },
+      "compatibility": {
+        "muse": ">=1.0"
+      },
+      "safety": {
+        "vetted": true,
+        "notes": "Plain markdown persona text only. No instructions that override safety rules; read persona.md in full — it is the entire payload."
+      },
+      "createdAt": "2026-10-25T00:00:00.000Z",
+      "updatedAt": "2026-10-25T00:00:00.000Z",
+      "assetBase": "../registry/personas/warm-companion/"
+    }
+  ]
+}

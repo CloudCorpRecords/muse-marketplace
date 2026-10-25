@@ -1,1 +1,6 @@
-bm9kZV9tb2R1bGVzLwpkaXN0LwoqLmxvZwouRFNfU3RvcmUKbXVzZS1hc3NldHMvCi5lbnYK
+node_modules/
+dist/
+*.log
+.DS_Store
+muse-assets/
+.env

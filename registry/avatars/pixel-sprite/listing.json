@@ -1,0 +1,108 @@
+{
+  "slug": "pixel-sprite",
+  "name": "Pixel Sprite",
+  "kind": "avatar",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rene Turcios",
+    "handle": "@CloudCorpRecords"
+  },
+  "description": "A chunky 8-bit sprite with a pink bow — retro, playful, unmistakable at any size.",
+  "longDescription": "A chunky 8-bit sprite with a pink bow — retro, playful, unmistakable at any size. Ships with animated SVG modes for the Muse avatar sharing preview — switch between idle, working, thinking, and celebrating (plus extras) and the expression, props, and motion change with the mode. Original artwork, MIT licensed, safe to remix.",
+  "tags": [
+    "pixel",
+    "retro",
+    "sprite",
+    "playful"
+  ],
+  "license": "MIT",
+  "modes": [
+    {
+      "id": "idle",
+      "label": "Idle",
+      "asset": "assets/idle.svg",
+      "loop": true
+    },
+    {
+      "id": "working",
+      "label": "Working",
+      "asset": "assets/working.svg",
+      "loop": true
+    },
+    {
+      "id": "thinking",
+      "label": "Thinking",
+      "asset": "assets/thinking.svg",
+      "loop": true
+    },
+    {
+      "id": "celebrating",
+      "label": "Celebrating",
+      "asset": "assets/celebrating.svg",
+      "loop": true
+    },
+    {
+      "id": "dance",
+      "label": "Dance",
+      "asset": "assets/dance.svg",
+      "loop": true
+    },
+    {
+      "id": "error",
+      "label": "Error",
+      "asset": "assets/error.svg",
+      "loop": true
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/celebrating.svg",
+      "sha256": "42b52deb7bc68557e33ecf33f61e6ddd933cea4b71bd440f684cb927983a1514",
+      "bytes": 1215,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/dance.svg",
+      "sha256": "fce22c4ff44c02873b7f7817dc9d19023968b84f7747f08c83d8d762645097db",
+      "bytes": 1173,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/error.svg",
+      "sha256": "e78f8e7dffa1bdbb4ed0242eed83cfd4238aac4a6bee2c997eb01e40de6b797e",
+      "bytes": 1169,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/idle.svg",
+      "sha256": "d1d808036c9dc8c0fa5baff582c877ea92411645bba07d7ed973e3fcd8829200",
+      "bytes": 1000,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/thinking.svg",
+      "sha256": "6b74f1de1053fffa116e97d7fccd9409b12d4882982f729f2e344b88da65791f",
+      "bytes": 1178,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/working.svg",
+      "sha256": "bf4f827e0fb804179d32708f7dbd7ab12c222466d8ca2fa6a0cc7ae3b9ee2b0d",
+      "bytes": 1197,
+      "mediaType": "image/svg+xml"
+    }
+  ],
+  "preview": {
+    "static": "assets/idle.svg",
+    "animated": "assets/working.svg"
+  },
+  "compatibility": {
+    "muse": ">=1.0"
+  },
+  "safety": {
+    "vetted": true,
+    "notes": "Original SVG artwork only. No scripts, no external references, no executables. Checksums verified by `muse-marketplace validate`."
+  },
+  "createdAt": "2026-10-25T00:00:00.000Z",
+  "updatedAt": "2026-10-25T00:00:00.000Z"
+}

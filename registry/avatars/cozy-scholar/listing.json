@@ -1,0 +1,84 @@
+{
+  "slug": "cozy-scholar",
+  "name": "Cozy Scholar",
+  "kind": "avatar",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rene Turcios",
+    "handle": "@CloudCorpRecords"
+  },
+  "description": "Glasses on, book open, tea nearby. The avatar for deep reading and careful thinking.",
+  "longDescription": "Glasses on, book open, tea nearby. The avatar for deep reading and careful thinking. Ships with animated SVG modes for the Muse avatar sharing preview — switch between idle, working, thinking, and celebrating (plus extras) and the expression, props, and motion change with the mode. Original artwork, MIT licensed, safe to remix.",
+  "tags": [
+    "cozy",
+    "scholar",
+    "books",
+    "warm"
+  ],
+  "license": "MIT",
+  "modes": [
+    {
+      "id": "idle",
+      "label": "Idle",
+      "asset": "assets/idle.svg",
+      "loop": true
+    },
+    {
+      "id": "working",
+      "label": "Working",
+      "asset": "assets/working.svg",
+      "loop": true
+    },
+    {
+      "id": "thinking",
+      "label": "Thinking",
+      "asset": "assets/thinking.svg",
+      "loop": true
+    },
+    {
+      "id": "celebrating",
+      "label": "Celebrating",
+      "asset": "assets/celebrating.svg",
+      "loop": true
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/celebrating.svg",
+      "sha256": "9e6b3ded0adee8057d0fe43f244f167502ede3e94e7eb57ebde2a49db623a82b",
+      "bytes": 1309,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/idle.svg",
+      "sha256": "6d4be8219ce7ee381056736aee42ffe2bc707f48f137c9f98f6961beddf793dd",
+      "bytes": 1094,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/thinking.svg",
+      "sha256": "fecdc3ae66e55df012f4b3a81ce6575c63de3a1fea3c640c16df6c289cd3716f",
+      "bytes": 1272,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/working.svg",
+      "sha256": "39791d48ed76ad91984cdc017abda11cb8b267b3a61cadde8f6a7f51d86345aa",
+      "bytes": 1291,
+      "mediaType": "image/svg+xml"
+    }
+  ],
+  "preview": {
+    "static": "assets/idle.svg",
+    "animated": "assets/working.svg"
+  },
+  "compatibility": {
+    "muse": ">=1.0"
+  },
+  "safety": {
+    "vetted": true,
+    "notes": "Original SVG artwork only. No scripts, no external references, no executables. Checksums verified by `muse-marketplace validate`."
+  },
+  "createdAt": "2026-10-25T00:00:00.000Z",
+  "updatedAt": "2026-10-25T00:00:00.000Z"
+}

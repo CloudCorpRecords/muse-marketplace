@@ -1,0 +1,96 @@
+{
+  "slug": "tree",
+  "name": "Tree",
+  "kind": "avatar",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rene Turcios",
+    "handle": "@CloudCorpRecords"
+  },
+  "description": "A calm forest spirit — leaves, patience, and deep roots. A nod to the agent named Tree.",
+  "longDescription": "A calm forest spirit — leaves, patience, and deep roots. A nod to the agent named Tree. Ships with animated SVG modes for the Muse avatar sharing preview — switch between idle, working, thinking, and celebrating (plus extras) and the expression, props, and motion change with the mode. Original artwork, MIT licensed, safe to remix.",
+  "tags": [
+    "nature",
+    "tree",
+    "spirit",
+    "calm"
+  ],
+  "license": "MIT",
+  "modes": [
+    {
+      "id": "idle",
+      "label": "Idle",
+      "asset": "assets/idle.svg",
+      "loop": true
+    },
+    {
+      "id": "working",
+      "label": "Working",
+      "asset": "assets/working.svg",
+      "loop": true
+    },
+    {
+      "id": "thinking",
+      "label": "Thinking",
+      "asset": "assets/thinking.svg",
+      "loop": true
+    },
+    {
+      "id": "celebrating",
+      "label": "Celebrating",
+      "asset": "assets/celebrating.svg",
+      "loop": true
+    },
+    {
+      "id": "milestone",
+      "label": "Milestone",
+      "asset": "assets/milestone.svg",
+      "loop": true
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/celebrating.svg",
+      "sha256": "460a93953266f91c024ef77c65d9328e9b974fdc01f595b43fd5f633e857c7b8",
+      "bytes": 1197,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/idle.svg",
+      "sha256": "20299f97bbb824371fdf6533fac6f81f335641f3b3eb0b5625cb63a706eedfdb",
+      "bytes": 982,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/milestone.svg",
+      "sha256": "e2e6a010f019cab20211a8042ec9cac5da8d01dc78daf6bd1431731cf507ce54",
+      "bytes": 1097,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/thinking.svg",
+      "sha256": "874b79c8b91e70961f977511f5b6f00935dee0c32c5a7cd3bce5ceb7b377d245",
+      "bytes": 1160,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "assets/working.svg",
+      "sha256": "f990f570b8fa507c306840db38fff1d0499ade8af9f78a0abfdb11990e892293",
+      "bytes": 1179,
+      "mediaType": "image/svg+xml"
+    }
+  ],
+  "preview": {
+    "static": "assets/idle.svg",
+    "animated": "assets/working.svg"
+  },
+  "compatibility": {
+    "muse": ">=1.0"
+  },
+  "safety": {
+    "vetted": true,
+    "notes": "Original SVG artwork only. No scripts, no external references, no executables. Checksums verified by `muse-marketplace validate`."
+  },
+  "createdAt": "2026-10-25T00:00:00.000Z",
+  "updatedAt": "2026-10-25T00:00:00.000Z"
+}

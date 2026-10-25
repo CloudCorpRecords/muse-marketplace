@@ -1,0 +1,56 @@
+{
+  "slug": "starter-pack",
+  "name": "Starter Pack",
+  "kind": "bundle",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rene Turcios",
+    "handle": "@CloudCorpRecords"
+  },
+  "description": "The whole launch catalog in one bundle: all 6 avatars and both personas.",
+  "longDescription": "Start here. The Starter Pack references every launch listing — Jolly, Tree, Straw Hat Explorer, Neon Founder, Cozy Scholar, Pixel Sprite, Sharp Operator, and Warm Companion — so a new Muse user can install the full set in minutes. The bundle itself ships a manifest (bundle.json); install each referenced slug individually.",
+  "tags": [
+    "bundle",
+    "starter",
+    "collection",
+    "launch"
+  ],
+  "license": "MIT",
+  "files": [
+    {
+      "path": "assets/preview.svg",
+      "sha256": "c930d1f4c3ba3119b08bfb5dfef01c29191b491ccd569a7c8e43e5d429bdb26b",
+      "bytes": 969,
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "path": "bundle.json",
+      "sha256": "b26109eb45330ccdfccb879a5d1167dc58352f2186e78e41476e09b1bf0df82b",
+      "bytes": 314,
+      "mediaType": "application/json"
+    }
+  ],
+  "preview": {
+    "static": "assets/preview.svg",
+    "animated": "assets/preview.svg"
+  },
+  "compatibility": {
+    "muse": ">=1.0"
+  },
+  "safety": {
+    "vetted": true,
+    "notes": "Manifest-only bundle. Every referenced listing is individually vetted and checksum-verified on install."
+  },
+  "createdAt": "2026-10-25T00:00:00.000Z",
+  "updatedAt": "2026-10-25T00:00:00.000Z",
+  "bundleContents": [
+    "jolly",
+    "tree",
+    "straw-hat-explorer",
+    "neon-founder",
+    "cozy-scholar",
+    "pixel-sprite",
+    "sharp-operator",
+    "warm-companion"
+  ]
+}

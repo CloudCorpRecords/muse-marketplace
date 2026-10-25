@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Cozy Scholar — Idle">
+  <rect width="200" height="200" rx="24" fill="#241a12"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -3; 0 0" dur="2.4s" repeatCount="indefinite"/>
+    <ellipse cx="100" cy="105" rx="52" ry="56" fill="#c98a4b"/>
+    <circle cx="85" cy="92" r="5" fill="#10131a"/>
+    <circle cx="115" cy="92" r="5" fill="#10131a"/>
+    <path d="M92 108 Q100 114 108 108" stroke="#10131a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="85" cy="92" r="13" fill="none" stroke="#5b3a1e" stroke-width="3"/><circle cx="115" cy="92" r="13" fill="none" stroke="#5b3a1e" stroke-width="3"/><path d="M98 92 h4" stroke="#5b3a1e" stroke-width="3"/><rect x="126" y="116" width="30" height="24" rx="3" fill="#7a4a21"/><rect x="130" y="120" width="22" height="3" fill="#f5e6c8"/>
+    
+  </g>
+  <text x="100" y="182" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#f0c48c">Cozy Scholar · Idle</text>
+</svg>

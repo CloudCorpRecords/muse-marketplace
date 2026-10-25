@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muse Marketplace — Avatars, Personas, Voices, Bundles</title>
+<meta name="description" content="The open marketplace and registry for shareable Muse assets.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="dot"></span> Muse <strong>Marketplace</strong></div>
+  <p class="tagline">The open registry for shareable Muse avatars, personas, voices &amp; bundles. Every file checksummed. Vetted means checked.</p>
+  <div class="controls">
+    <input id="search" type="search" placeholder="Search avatars, personas, tags…" aria-label="Search listings">
+    <div id="kind-filters" class="chips" role="group" aria-label="Filter by kind">
+      <button class="chip active" data-kind="">All</button>
+      <button class="chip" data-kind="avatar">Avatars</button>
+      <button class="chip" data-kind="persona">Personas</button>
+      <button class="chip" data-kind="voice">Voices</button>
+      <button class="chip" data-kind="bundle">Bundles</button>
+    </div>
+    <div id="tag-filters" class="chips tags" aria-label="Filter by tag"></div>
+  </div>
+</header>
+
+<main>
+  <p id="count" class="count"></p>
+  <section id="grid" class="grid" aria-live="polite"></section>
+  <p id="empty" class="empty" hidden>Nothing matches. Try a different search or filter.</p>
+</main>
+
+<div id="detail" class="detail-overlay" hidden>
+  <div class="detail-card" role="dialog" aria-modal="true" aria-labelledby="d-name">
+    <button id="d-close" class="close" aria-label="Close">×</button>
+    <div class="detail-media">
+      <img id="d-img" alt="Avatar preview">
+      <div id="d-modes" class="mode-tabs" role="tablist" aria-label="Avatar modes"></div>
+    </div>
+    <div class="detail-body">
+      <h2 id="d-name"></h2>
+      <p id="d-meta" class="meta"></p>
+      <p id="d-long"></p>
+      <p id="d-extra" class="meta"></p>
+      <label class="install-label" for="d-install">Install</label>
+      <div class="install-row">
+        <code id="d-install"></code>
+        <button id="d-copy">Copy</button>
+      </div>
+      <p class="hint">Installs verify the sha256 of every file before and after copying, and write an <code>install-receipt.json</code>.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>MIT · By Rene Turcios / CloudCorpRecords · Registry data generated from the repo — <code>registry/index.json</code> is the source of truth.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

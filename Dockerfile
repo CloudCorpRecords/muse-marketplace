@@ -5,4 +5,5 @@ COPY package*.json ./
 RUN npm ci --omit=dev || npm install --omit=dev
 COPY . .
 RUN npm run build || true
-CMD ["node", "dist/cli.js", "mcp"]
+ENTRYPOINT ["node", "dist/cli.js"]
+CMD ["mcp"]
